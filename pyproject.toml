@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "stac-cube"
+version = "0.1.0"
+description = "Playground notebooks for exploring, analyzing, and animating EO data through STACs"
+authors = ["Maanas Nukala"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = ">=3.8,<3.12"
+numpy = "^1.23.3"
+dask = "^2022.9.2"
+stackstac = "^0.4.3"
+geogif = "^0.1.3"
+pystac = "^1.6.1"
+odc-stac = "^0.3.2"
+ipyleaflet = "*"
+python-dotenv = "^0.21.0"
+ipython = "^8.5.0"
+ipykernel = "^6.16.0"
+ipywidgets = "^8.0.2"
+gdal = {path = "whl/GDAL-3.4.3-cp310-cp310-win_amd64.whl"}
+rasterio = "^1.3.2"
+pystac-client = "^0.5.1"
+pyproj = "^3.4.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
